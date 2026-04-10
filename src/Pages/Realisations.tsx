@@ -20,7 +20,7 @@ export default function Realisations() {
   const [selectedProject, setSelectedProject] = useState<any | null>(null);
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  const BASE_URL = "http://127.0.0.1:8000";
+  const BASE_URL = "https://suzikadi-backend.onrender.com";
 
   const getImageUrl = (path: string) => {
     if (!path) return "";
